@@ -1,6 +1,4 @@
-RewriteEngine On
-RewriteBase /
-RewriteCond $1 !^(index\.html|assets|robots\.txt|favicon\.png)
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^.*$ index.html [L]
+RewriteEngine on
+RewritwCond %{REQUEST_FILENAME} !-d
+RewritwCond %{REQUEST_FILENAME} !-f
+RewriteRule . /index.html [L]
